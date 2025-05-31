@@ -1,0 +1,4 @@
+# aptitude.py
+def calculate_aptitude(scores):
+    # Example logic: based on answers to 5 questions
+    return "Logical" if scores.count("A") > 2 else "Verbal"
